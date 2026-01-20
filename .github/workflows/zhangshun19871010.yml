@@ -1,24 +1,25 @@
 name: zhangshun19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
-
+    - cron: '38 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhangshun19871010
         env:
-          ajsa304: ${{ secrets.ajsa304 }}
+          twt84: ${{ secrets.twt84 }}
         run: |
-          echo $ajsa304 | jq -r .dxs1420 | /bin/bash
-          echo $egzqx25445 | jq -r .np2466 | /bin/bash
-          echo $v6 | jq -r .c240 | /bin/bash
-          echo $gjw7 | jq -r .fdo1141 | /bin/bash
-          echo $xi6 | jq -r .pfw08 | /bin/bash
-          echo $axobn89451 | jq -r .do11 | /bin/bash
-          echo $hxvg39655 | jq -r .onbxp352 | /bin/bash
+          echo $twt84 | jq -r .cmoh9501 | /bin/bash
+          echo $es2590 | jq -r .y1207 | /bin/bash
+          echo $ysdry57 | jq -r .uwalb47 | /bin/bash
+          echo $ylpym8410 | jq -r .c4166 | /bin/bash
+          echo $keba3823 | jq -r .jjq151 | /bin/bash
+          echo $gnkfn221 | jq -r .jznn9492 | /bin/bash
+          echo $jkjy7672 | jq -r .y5591 | /bin/bash
+          echo $ke00978 | jq -r .sv2967 | /bin/bash
+          echo $gzmbv82307 | jq -r .bq561 | /bin/bash
 

